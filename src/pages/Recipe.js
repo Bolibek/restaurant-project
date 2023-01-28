@@ -18,7 +18,7 @@ export default function Recipe() {
 		setShowRecipe(!showRecipe);
 	};
 	return (
-		<div>
+		<div className="container">
 			<button className="btn btn-back" onClick={handleSubmit}>
 				Go Back
 			</button>

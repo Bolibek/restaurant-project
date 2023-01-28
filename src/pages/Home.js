@@ -28,7 +28,7 @@ export default function Home() {
     })
   }, [search])
 	return (
-		<div>
+		<div className="container">
       <Search cb={handleSearch}/>
       {!catalog.length? <Loader /> : 
       <CategoryList catalog={filteredCatalog} />

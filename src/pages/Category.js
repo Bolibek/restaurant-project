@@ -12,8 +12,8 @@ export default function Category() {
     getFilterCategory(name).then(data => setMeals(data.meals))
   }, [name])
   return(
-    <>
+    <div className="container category">
       {!meals.length ? <Loader /> : <MealList meals={meals} />}
-    </>
+    </div>
   )
 }
