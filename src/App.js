@@ -6,12 +6,12 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import Category from "./pages/Category";
-import Recipe from "./pages/Recipe"
+import Recipe from "./pages/Recipe";
 function App() {
 	return (
 		<div>
 			<Header />
-			<main className="container content">
+			<main className=" content">
 				<Routes>
 					<Route exact path="/" element={<Home/>} />
 					<Route path="/about" element={<About/>} />
